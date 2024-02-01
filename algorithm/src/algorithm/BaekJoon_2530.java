@@ -19,7 +19,8 @@ import java.util.StringTokenizer;
 	output
 	14 33 20
 
-	Solution : 1. 
+	Solution : 1. 시간에 대한 계산
+			   2. 시 / 분 / 초에 대한 합산과 나머지를 계속적으로 대입하여 나간다.
 */
 
 public class BaekJoon_2530 {
