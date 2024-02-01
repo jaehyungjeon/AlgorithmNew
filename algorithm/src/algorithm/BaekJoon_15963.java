@@ -18,7 +18,7 @@ import java.util.StringTokenizer;
 	output
 	1
 
-	Solution : 1. 
+	Solution : 1. 뭐 그냥.. easy
 */
 
 public class BaekJoon_15963 {
