@@ -35,7 +35,7 @@ public class BaekJoon_4299 {
 		for(int i=0; i<count; i++) {
 			sb.append(i+1).append(". ").append(br.readLine()).append("\n");
 		}
-		
+
 		System.out.println(sb.toString());
 	}
 }
