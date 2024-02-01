@@ -23,7 +23,7 @@ import java.io.InputStreamReader;
 	output
 	Red
 
-	Solution : 1. 
+	Solution : 1. 단순한 if문..
 */
 
 public class BaekJoon_30676 {
