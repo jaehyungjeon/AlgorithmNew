@@ -2,7 +2,6 @@ package algorithm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 /*
 	Question : 스위트콘의 가격은 $A$원이다. 

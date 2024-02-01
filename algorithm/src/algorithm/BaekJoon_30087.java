@@ -3,7 +3,6 @@ package algorithm;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.StringTokenizer;
 
 /*
 	Question : 한국정보기술진흥원에서는 다양한 세미나가 열린다.
