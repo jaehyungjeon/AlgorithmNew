@@ -2,23 +2,29 @@ package algorithm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 /*
-	Question : 카시오 계산기는 만능 계산기이다. 
-	시험을 한 번이라도 쳐본 일곽인이라면, 이 카시오의 소중함에 대해서 뼈저리게 느껴보았을 것이다. 
-	하지만, 이런 카시오에도 함정이 있다. 바로, 카시오 계산기는 배터리를 통해 돌아간다는 것이다.
+	Question : D2는 For Developers, By Developers의 약자로, 개발자들을 위해 개발자들이 직접 만들어 가고 있는 네이버 개발자 지원 프로그램입니다. 
+	네이버가 축적한 기술과 지식을 공유하고, 외부 개발자들을 지원해 대한민국 개발자 역량 강화를 이끌고, 이를 통해 업계 전체와 네이버가 함께 성장하는 선순환 구조를 만들고자 합니다.
 
-	송찬이는 시험을 치다가 갑자기 계산기의 배터리가 나가버렸다. 
-	그래서 선생님께 배터리를 달라고 요구했는데, 요구하고 보니 카시오 계산기의 배터리가 어떤 종류인지 말을 안 해버렸다! 과연 선생님은 송찬이가 필요한 배터리 종류를 들고 왔을까?
+	사실 네이버의 개발자 지원은 오랜 기간 꾸준히 이어져 왔습니다. 
+	개발자 컨퍼런스 DEVIEW를 비롯, 오픈 소스와 개발 도구 공개, 학회 및 커뮤니티 지원 등 여러 지원 프로그램이 있었습니다. 
+	이런 다양한 프로그램을 하나로 통합한 것이 바로 Naver D2입니다.
+
+	D2 CAMPUS 프로그램은 다른 학생 개발자에게 개발 지식을 공유할 수 있도록 실력 있는 SW 동아리, 소모임, 학회, 세미나, 컨퍼런스를 지원합니다.
+
+	숭고한 알고리즘 대회를 운영하게 된 성서는 참가자들에게 상금을 주기 위해 여러 기업에 후원 요청을 보냈고, D2 CAMPUS를 통해 대회 상금을 지원받게 되었다.
+
+	상금을 사비로 부담하지 않아도 돼서 감사한 성서는 검색창에 N 또는 n이 입력되면 Naver D2가 자동 완성되도록 설정하고 싶다. 
+	알파벳 하나를 입력받아서 그 알파벳이 N 또는 n이면 Naver D2를 출력하고, 아니라면 Naver Whale을 출력하는 프로그램을 작성해보자.
 
 	input
-	1 1
+	N
 
 	output
-	1
+	Naver D2
 
-	Solution : 1. 뭐 그냥.. easy
+	Solution : 1. String 붙여주기만 하면 됨.
 */
 
 public class BaekJoon_15963 {
@@ -26,14 +32,14 @@ public class BaekJoon_15963 {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		String str1 = st.nextToken();
-		String str2 = st.nextToken();
-
-		if(str1.equals(str2)) {
-			System.out.println("1");
+		String compareString = br.readLine();
+		StringBuilder sb = new StringBuilder("Naver ");
+		if(compareString.toUpperCase().equals("N")) {
+			sb.append("D2");
 		} else {
-			System.out.println("0");
+			sb.append("Whale");
 		}
+
+		System.out.println(sb.toString());
 	}
 }
