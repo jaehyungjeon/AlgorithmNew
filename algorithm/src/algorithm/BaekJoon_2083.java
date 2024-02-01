@@ -22,7 +22,7 @@ import java.util.StringTokenizer;
 	Billy Junior
 	Sam Senior
 
-	Solution : 1. 
+	Solution : 1. 조건에 따라서 StringBuilder에 담아줌. 
 */
 
 public class BaekJoon_2083 {
