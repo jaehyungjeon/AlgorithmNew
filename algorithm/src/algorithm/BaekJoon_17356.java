@@ -29,6 +29,7 @@ public class BaekJoon_17356 {
 		Double B = Double.parseDouble(st.nextToken());
 
 		Double M = (B-A) / 400;
+
 		System.out.println(1/(1+Math.pow(10, M)));
 	}
 }
