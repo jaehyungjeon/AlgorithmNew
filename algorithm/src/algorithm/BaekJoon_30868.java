@@ -22,7 +22,7 @@ import java.io.InputStreamReader;
 	|
 	++++
 
-	Solution : 1. 
+	Solution : 1. 몫과 나머지를 이용하여 StringBuilder에 append 해준다.
 */
 
 public class BaekJoon_30868 {
