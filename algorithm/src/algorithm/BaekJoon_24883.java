@@ -21,7 +21,7 @@ import java.util.StringTokenizer;
 	Solution : 1. 뭐 그냥.. easy
 */
 
-public class BaekJoon_15963 {
+public class BaekJoon_24883 {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub

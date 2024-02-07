@@ -2,7 +2,6 @@ package algorithm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 /*
 	Question : Robert the chapman (a medieval traveling merchant) made regular trips between his home village and 

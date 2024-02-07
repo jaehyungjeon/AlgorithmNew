@@ -2,7 +2,6 @@ package algorithm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 /*
 	Question : Some numbers are just, well, odd. For example, the number 3 is odd, because it is not a multiple of two.

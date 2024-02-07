@@ -2,7 +2,6 @@ package algorithm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.HashSet;
 
 /*
 	Question : Fact or Fiction, some people consider 7 to be a lucky digit/number.

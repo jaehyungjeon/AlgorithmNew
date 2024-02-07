@@ -47,7 +47,7 @@ import java.util.StringTokenizer;
 	 		   3. MAX값이 없으면 -1 RETURN
 */
 
-public class BaekJoon_4299 {
+public class BaekJoon_4470 {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
