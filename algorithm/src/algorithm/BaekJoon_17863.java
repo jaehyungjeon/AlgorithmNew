@@ -2,7 +2,6 @@ package algorithm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 /*
 	Question : In the United States of America, telephone numbers within an area code consist of 7 digits: the prefix number is the first 3 digits and the line number is the last 4 digits. Traditionally, the 555 prefix number has been used to provide directory information and assistance as in the following examples:
