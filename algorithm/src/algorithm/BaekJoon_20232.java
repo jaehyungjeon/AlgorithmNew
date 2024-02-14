@@ -2,7 +2,6 @@ package algorithm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 /*
 	Question : The team of problemsetters of Northwestern Russia Regional Contest welcomes you! Our regional contest was founded in 1995 under the name "Collegiate Programming Championship of St Petersburg".
