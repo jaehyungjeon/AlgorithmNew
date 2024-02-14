@@ -30,6 +30,6 @@ public class BaekJoon_20352 {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Double num = Double.parseDouble(br.readLine());
-		System.out.println(Math.pow(num*Math.PI, 0.5) * 2);
+		System.out.println(Math.pow(num * Math.PI, 0.5) * 2);
 	}
 }
