@@ -38,8 +38,10 @@ public class BaekJoon_20233 {
 
 		Integer aMinutes = T - 30;
 		Integer bMintues = T - 45;
-		if(aMinutes < 0) aMinutes = 0;
-		if(bMintues < 0) bMintues = 0;
+		if (aMinutes < 0)
+			aMinutes = 0;
+		if (bMintues < 0)
+			bMintues = 0;
 
 		aMinutes *= x;
 		bMintues *= y;
