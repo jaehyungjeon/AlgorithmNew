@@ -30,7 +30,7 @@ public class BaekJoon_19602 {
 		Integer M = Integer.parseInt(br.readLine());
 		Integer L = Integer.parseInt(br.readLine());
 		Integer sum = (1 * S) + (2 * M) + (3 * L);
-		if(sum >= 10) {
+		if (sum >= 10) {
 			System.out.println("happy");
 		} else {
 			System.out.println("sad");
