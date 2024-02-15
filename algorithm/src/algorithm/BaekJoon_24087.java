@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
 	output
 	450
 
-	Solution : 1. 
+	Solution : 1. 올림을 이용한 계산
 */
 
 public class BaekJoon_24087 {
