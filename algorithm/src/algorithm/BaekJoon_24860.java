@@ -29,7 +29,7 @@ import java.util.StringTokenizer;
 	output
 	4014000
 
-	Solution : 1. 
+	Solution : 1. 문제는 어려운데 계산식은 단순..
 */
 
 public class BaekJoon_24860 {
@@ -38,16 +38,23 @@ public class BaekJoon_24860 {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		Integer vk = Integer.parseInt(st.nextToken());
-		Integer jk = Integer.parseInt(st.nextToken());
+		Long vk = Long.parseLong(st.nextToken());
+		Long jk = Long.parseLong(st.nextToken());
 
 		st = new StringTokenizer(br.readLine());
-		Integer va = Integer.parseInt(st.nextToken());
-		Integer ja = Integer.parseInt(st.nextToken());
+		Long va = Long.parseLong(st.nextToken());
+		Long ja = Long.parseLong(st.nextToken());
 
 		st = new StringTokenizer(br.readLine());
-		Integer vh = Integer.parseInt(st.nextToken());
-		Integer dh = Integer.parseInt(st.nextToken());
-		Integer jh = Integer.parseInt(st.nextToken());
+		Long vh = Long.parseLong(st.nextToken());
+		Long dh = Long.parseLong(st.nextToken());
+		Long jh = Long.parseLong(st.nextToken());
+
+		Long heavy = vh * dh * jh;
+		Long k = vk * jk;
+		Long l = va * ja;
+		Long total = heavy * (k + l);
+
+		System.out.println(total);
 	}
 }
